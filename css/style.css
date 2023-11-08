@@ -47,7 +47,7 @@ header a {
 
 #hero {
     background: rgb(1, 51, 93);
-    padding: 60px 40px 250px 40px;
+    padding: 60px 40px 150px 40px;
     text-align: center;
 }
 
@@ -89,7 +89,7 @@ p {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 20px;
-    padding: 20px 40px 250px 40px;
+    padding: 20px 40px 40px 40px;
     background: rgb(1, 51, 93);
     text-align: center;
 }
@@ -100,9 +100,9 @@ p {
 }
 
 #contact {
-    padding: 40px;
     background: rgb(1, 51, 93);
     min-height: 800px;
+    padding: 40px 40px 900px;
 }
 
 .content-container {
