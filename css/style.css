@@ -1,0 +1,135 @@
+* {
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Kanit', 'Arial', sans-serif;
+    line-height: 1.6;
+    background: rgb(253, 252, 196);
+    color: rgb(56, 161, 208);
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+header {
+    background-color: rgb(56, 161, 208);
+    color: rgb(1, 51, 93);
+    position: fixed;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+}
+
+header ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+header li {
+    padding: 0 50px;
+}
+
+header a {
+    text-decoration: none;
+    color: rgb(1, 51, 93);
+}
+
+#hero {
+    background: rgb(1, 51, 93);
+    padding: 60px 40px 250px 40px;
+    text-align: center;
+}
+
+#hero img {
+    max-width: 100%;
+    height: auto;
+}
+
+h1 {
+    margin-bottom: 0.5rem;
+    font-size: 40px;
+}
+
+p {
+    margin-bottom: 60px;
+    font-size: 20px;
+}
+
+#skin h1{
+    background-color: rgb(1, 51, 93);
+    margin: 0 auto;
+    padding-top: 80px;
+    padding-left: 40px;
+}
+
+#skin_main {
+    background: rgb(1, 51, 93);
+    padding: 10px 40px 20px 40px;
+    text-align: center;
+}
+
+#skin_main img {
+    max-width: 100%;
+    height: auto;
+    padding: 10px 20px 0 20px;
+}
+
+.hero_skins {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+    padding: 20px 40px 250px 40px;
+    background: rgb(1, 51, 93);
+    text-align: center;
+}
+
+.hero_skins img {
+    max-width: 100%;
+    height: auto;
+}
+
+#contact {
+    padding: 40px;
+    background: rgb(1, 51, 93);
+    min-height: 800px;
+}
+
+.content-container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+.content-container div {
+    flex: 1;
+}
+
+.map-container img {
+    max-width: 100%;
+    min-width: 250px;
+    height: auto;
+    background-color: rgb(253, 252, 196);
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(56, 161, 208);
+    color: rgb(1, 51, 93);
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
