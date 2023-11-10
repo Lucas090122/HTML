@@ -66,11 +66,16 @@ p {
     font-size: 20px;
 }
 
-#skin h1{
+#skin h1 {
     background-color: rgb(1, 51, 93);
     margin: 0 auto;
     padding-top: 80px;
     padding-left: 40px;
+}
+
+#skin h2 {
+    background-color: rgb(1, 51, 93);
+    text-align: left;
 }
 
 #skin_main {
