@@ -38,19 +38,12 @@ header ul {
 
 header li {
     padding: 0 50px;
+    font-size: 25px;
 }
 
 header a {
     text-decoration: none;
     color: rgb(1, 51, 93);
-}
-
-main {
-    background-image: url('background.png');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: center center;
 }
 
 #hero {
